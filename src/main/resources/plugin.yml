@@ -1,0 +1,14 @@
+name: MCManhunt
+version: '${project.version}'
+main: com.isaacyee.minecraft.mcmanhunt.MCManhunt
+api-version: 1.19
+commands:
+  addhunter:
+    description: Adds the player as a Hunter
+    usage: /addhunter
+  removehunter:
+    description: Removes the player as a Hunter
+    usage: /removehunter
+  starttimer:
+    description: Starts the timer
+    usage: /starttimer
